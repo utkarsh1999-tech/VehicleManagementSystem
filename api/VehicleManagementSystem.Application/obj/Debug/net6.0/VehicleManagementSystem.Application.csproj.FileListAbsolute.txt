@@ -1,0 +1,17 @@
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\bin\Debug\net6.0\VehicleManagementSystem.Application.deps.json
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\bin\Debug\net6.0\VehicleManagementSystem.Application.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\bin\Debug\net6.0\VehicleManagementSystem.Application.pdb
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\bin\Debug\net6.0\VehicleManagementSystem.Core.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\bin\Debug\net6.0\VehicleManagementSystem.Infrastructure.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\bin\Debug\net6.0\VehicleManagementSystem.Core.pdb
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\bin\Debug\net6.0\VehicleManagementSystem.Infrastructure.pdb
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.csproj.AssemblyReference.cache
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.AssemblyInfoInputs.cache
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.AssemblyInfo.cs
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.csproj.CoreCompileInputs.cache
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.csproj.CopyComplete
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\refint\VehicleManagementSystem.Application.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\VehicleManagementSystem.Application.pdb
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Application\obj\Debug\net6.0\ref\VehicleManagementSystem.Application.dll

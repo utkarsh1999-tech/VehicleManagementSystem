@@ -1,0 +1,12 @@
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\bin\Debug\net6.0\VehicleManagementSystem.Core.deps.json
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\bin\Debug\net6.0\VehicleManagementSystem.Core.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\bin\Debug\net6.0\VehicleManagementSystem.Core.pdb
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\VehicleManagementSystem.Core.csproj.AssemblyReference.cache
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\VehicleManagementSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\VehicleManagementSystem.Core.AssemblyInfoInputs.cache
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\VehicleManagementSystem.Core.AssemblyInfo.cs
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\VehicleManagementSystem.Core.csproj.CoreCompileInputs.cache
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\VehicleManagementSystem.Core.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\refint\VehicleManagementSystem.Core.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\VehicleManagementSystem.Core.pdb
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Core\obj\Debug\net6.0\ref\VehicleManagementSystem.Core.dll

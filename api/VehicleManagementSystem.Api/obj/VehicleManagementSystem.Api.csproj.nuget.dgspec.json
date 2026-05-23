@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Api\\VehicleManagementSystem.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Api\\VehicleManagementSystem.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Api\\VehicleManagementSystem.Api.csproj",
+        "projectName": "VehicleManagementSystem.Api",
+        "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Api\\VehicleManagementSystem.Api.csproj",
+        "packagesPath": "C:\\Users\\utkarsh\\.nuget\\packages\\",
+        "outputPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\utkarsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Application\\VehicleManagementSystem.Application.csproj": {
+                "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Application\\VehicleManagementSystem.Application.csproj"
+              },
+              "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj": {
+                "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Application\\VehicleManagementSystem.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Application\\VehicleManagementSystem.Application.csproj",
+        "projectName": "VehicleManagementSystem.Application",
+        "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Application\\VehicleManagementSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\utkarsh\\.nuget\\packages\\",
+        "outputPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\utkarsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj": {
+                "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj"
+              },
+              "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Infrastructure\\VehicleManagementSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Infrastructure\\VehicleManagementSystem.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj",
+        "projectName": "VehicleManagementSystem.Core",
+        "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj",
+        "packagesPath": "C:\\Users\\utkarsh\\.nuget\\packages\\",
+        "outputPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\utkarsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Infrastructure\\VehicleManagementSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Infrastructure\\VehicleManagementSystem.Infrastructure.csproj",
+        "projectName": "VehicleManagementSystem.Infrastructure",
+        "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Infrastructure\\VehicleManagementSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\utkarsh\\.nuget\\packages\\",
+        "outputPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\utkarsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj": {
+                "projectPath": "C:\\utkarsh\\Git\\VehicleManagementSystem\\api\\VehicleManagementSystem.Core\\VehicleManagementSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

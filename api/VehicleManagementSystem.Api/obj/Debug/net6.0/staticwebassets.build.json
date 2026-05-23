@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D7vkZ/fxVkOwFjwpoTgCSbYZhvbhxEHqmmlCthNlXnE=",
+  "Source": "VehicleManagementSystem.Api",
+  "BasePath": "_content/VehicleManagementSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
