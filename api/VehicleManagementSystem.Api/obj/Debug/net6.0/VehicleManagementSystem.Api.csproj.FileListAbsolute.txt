@@ -66,3 +66,4 @@ C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Api\obj\Debug
 C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Api\obj\Debug\net6.0\VehicleManagementSystem.Api.pdb
 C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Api\obj\Debug\net6.0\VehicleManagementSystem.Api.genruntimeconfig.cache
 C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Api\obj\Debug\net6.0\ref\VehicleManagementSystem.Api.dll
+C:\utkarsh\Git\VehicleManagementSystem\api\VehicleManagementSystem.Api\bin\Debug\net6.0\VehicleManagementSystem.Api.staticwebassets.runtime.json

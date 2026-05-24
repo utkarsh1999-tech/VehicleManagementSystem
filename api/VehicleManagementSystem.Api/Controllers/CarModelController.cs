@@ -29,8 +29,8 @@ public class CarModelController : ControllerBase
     }
 
     [HttpGet("search")]
-    public async Task<IActionResult> Search([FromQuery] string modelName = "", [FromQuery] string modelCode = "")
-        => Ok(await _service.SearchAsync(modelName, modelCode));
+    public async Task<IActionResult> Search([FromQuery] string? modelName = null, [FromQuery] string? modelCode = null)
+        => Ok(await _service.SearchAsync(modelName ?? "", modelCode ?? ""));
 
     [HttpPost]
     [Authorize(Roles = "Admin")]

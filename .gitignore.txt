@@ -1,0 +1,15 @@
+# Angular
+UI/node_modules
+UI/dist
+
+# .NET
+api/bin
+api/obj
+
+# Visual Studio
+.vs
+*.user
+*.suo
+
+# Logs
+*.log

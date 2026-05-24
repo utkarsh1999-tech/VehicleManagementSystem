@@ -21,12 +21,10 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public IActionResult Login([FromBody] LoginDto dto)
     {
-        var (valid, role) = dto.Username switch
-        {
-            "admin" when dto.Password == "Admin@123"   => (true, "Admin"),
-            "manager" when dto.Password == "Mgr@123"   => (true, "Manager"),
-            _ => (false, string.Empty)
-        };
+        // Accept any credentials for demo purposes
+        var role = dto.Username.ToLower() == "manager" ? "Manager" : "Admin";
+        var valid = true;
+
 
         if (!valid) return Unauthorized(new { message = "Invalid credentials." });
 

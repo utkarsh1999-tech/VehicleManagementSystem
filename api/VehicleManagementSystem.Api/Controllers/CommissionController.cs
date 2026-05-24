@@ -6,12 +6,13 @@ namespace VehicleManagementSystem.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize(Roles = "Admin,Manager")]
+[Authorize(Roles = "Admin")]
 public class CommissionController : ControllerBase
 {
     private readonly ICommissionService _commissionService;
 
-    public CommissionController(ICommissionService commissionService)
+    public CommissionController(
+        ICommissionService commissionService)
     {
         _commissionService = commissionService;
     }

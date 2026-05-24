@@ -6,78 +6,107 @@ namespace VehicleManagementSystem.Infrastructure.Repositories;
 public class CarModelRepository : ICarModelRepository
 {
     private static readonly List<CarModel> _carModels = new()
+{
+    new()
     {
-        new() { 
-            Id = 1, 
-            Brand = "Audi", 
-            Class = "A-Class", 
-            ModelName = "e-tron GT", 
-            ModelCode = "AUDIETR10A", 
-            Description = "<p>High performance electric sedan with stunning styling and agility.</p>", 
-            Features = "<p>Quattro AWD, 93 kWh battery, 522 hp boost mode.</p>", 
-            Price = 104000m, 
-            DateOfManufacturing = new DateTime(2024, 5, 10), 
-            IsActive = true, 
-            SortOrder = 1, 
-            ImagePaths = new() 
-        },
-        new() { 
-            Id = 2, 
-            Brand = "Jaguar", 
-            Class = "A-Class", 
-            ModelName = "F-Type R-Dynamic", 
-            ModelCode = "JAGFTYP12B", 
-            Description = "<p>Supercharged performance coupe combining luxury with raw power.</p>", 
-            Features = "<p>5.0L Supercharged V8, active exhaust system, AWD.</p>", 
-            Price = 77300m, 
-            DateOfManufacturing = new DateTime(2023, 11, 15), 
-            IsActive = true, 
-            SortOrder = 2, 
-            ImagePaths = new() 
-        },
-        new() { 
-            Id = 3, 
-            Brand = "Land Rover", 
-            Class = "B-Class", 
-            ModelName = "Defender 110", 
-            ModelCode = "LNDDEF110C", 
-            Description = "<p>Iconic off-road vehicle built for exploration and ultimate durability.</p>", 
-            Features = "<p>P400 MHEV engine, electronic air suspension, terrain response.</p>", 
-            Price = 60800m, 
-            DateOfManufacturing = new DateTime(2024, 2, 20), 
-            IsActive = true, 
-            SortOrder = 3, 
-            ImagePaths = new() 
-        },
-        new() { 
-            Id = 4, 
-            Brand = "Renault", 
-            Class = "C-Class", 
-            ModelName = "Clio E-Tech", 
-            ModelCode = "RENCLIO23D", 
-            Description = "<p>Efficient city hatchback with smart hybrid technology and style.</p>", 
-            Features = "<p>E-Tech full hybrid 145, 18-inch alloy wheels, multi-sense modes.</p>", 
-            Price = 22000m, 
-            DateOfManufacturing = new DateTime(2023, 8, 5), 
-            IsActive = true, 
-            SortOrder = 4, 
-            ImagePaths = new() 
-        },
-        new() { 
-            Id = 5, 
-            Brand = "Audi", 
-            Class = "B-Class", 
-            ModelName = "Q3 Sportback", 
-            ModelCode = "AUDIQ3SB05", 
-            Description = "<p>Compact crossover SUV with athletic coupe lines and advanced cockpit.</p>", 
-            Features = "<p>TFSI engine, Virtual Cockpit, Lane Departure Warning.</p>", 
-            Price = 38200m, 
-            DateOfManufacturing = new DateTime(2024, 1, 12), 
-            IsActive = true, 
-            SortOrder = 5, 
-            ImagePaths = new() 
+        Id = 1,
+        Brand = "Audi",
+        Class = "A-Class",
+        ModelName = "e-tron GT",
+        ModelCode = "AUDIETR10A",
+        Description = "<p>High performance electric sedan with stunning styling and agility.</p>",
+        Features = "<p>Quattro AWD, 93 kWh battery, 522 hp boost mode.</p>",
+        Price = 104000m,
+        DateOfManufacturing = new DateTime(2024, 5, 10),
+        IsActive = true,
+        SortOrder = 1,
+
+        ImagePaths = new()
+        {
+            "/uploads/audi-etron-gt.jpg"
         }
-    };
+    },
+
+    new()
+    {
+        Id = 2,
+        Brand = "Jaguar",
+        Class = "A-Class",
+        ModelName = "F-Type R-Dynamic",
+        ModelCode = "JAGFTYP12B",
+        Description = "<p>Supercharged performance coupe combining luxury with raw power.</p>",
+        Features = "<p>5.0L Supercharged V8, active exhaust system, AWD.</p>",
+        Price = 77300m,
+        DateOfManufacturing = new DateTime(2023, 11, 15),
+        IsActive = true,
+        SortOrder = 2,
+
+        ImagePaths = new()
+        {
+            "/uploads/jaguar-f-type.jpg"
+        }
+    },
+
+    new()
+    {
+        Id = 3,
+        Brand = "Land Rover",
+        Class = "B-Class",
+        ModelName = "Defender 110",
+        ModelCode = "LNDDEF110C",
+        Description = "<p>Iconic off-road vehicle built for exploration and ultimate durability.</p>",
+        Features = "<p>P400 MHEV engine, electronic air suspension, terrain response.</p>",
+        Price = 60800m,
+        DateOfManufacturing = new DateTime(2024, 2, 20),
+        IsActive = true,
+        SortOrder = 3,
+
+        ImagePaths = new()
+        {
+            "/uploads/landrover-defender.jpg"
+        }
+    },
+
+    new()
+    {
+        Id = 4,
+        Brand = "Renault",
+        Class = "C-Class",
+        ModelName = "Clio E-Tech",
+        ModelCode = "RENCLIO23D",
+        Description = "<p>Efficient city hatchback with smart hybrid technology and style.</p>",
+        Features = "<p>E-Tech full hybrid 145, 18-inch alloy wheels, multi-sense modes.</p>",
+        Price = 22000m,
+        DateOfManufacturing = new DateTime(2023, 8, 5),
+        IsActive = true,
+        SortOrder = 4,
+
+        ImagePaths = new()
+        {
+            "/uploads/renault-clio.jpg"
+        }
+    },
+
+    new()
+    {
+        Id = 5,
+        Brand = "Audi",
+        Class = "B-Class",
+        ModelName = "Q3 Sportback",
+        ModelCode = "AUDIQ3SB05",
+        Description = "<p>Compact crossover SUV with athletic coupe lines and advanced cockpit.</p>",
+        Features = "<p>TFSI engine, Virtual Cockpit, Lane Departure Warning.</p>",
+        Price = 38200m,
+        DateOfManufacturing = new DateTime(2024, 1, 12),
+        IsActive = true,
+        SortOrder = 5,
+
+        ImagePaths = new()
+        {
+            "/uploads/audi-q3-sportback.jpg"
+        }
+    }
+};
 
     public Task<IEnumerable<CarModel>> GetAllAsync()
     {
